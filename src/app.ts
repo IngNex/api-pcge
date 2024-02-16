@@ -5,6 +5,7 @@ import cors from 'cors'
 import certificateRoutes from './routes/certificate.routes'
 import peopleRoutes from './routes/person.routes'
 import userRoutes from './routes/user.routes'
+import accountsRoutes from './routes/account.routes'
 
 const app = express()
 
@@ -15,6 +16,7 @@ app.use(cors())
 app.use('/api/v1/certificates', certificateRoutes)
 app.use('/api/v1/people', peopleRoutes)
 app.use('/api/v1/auth', userRoutes)
+app.use('/api/v1/accounts', accountsRoutes)
 
 app.use((_req, res) => {
     const clientIP = _req.ip;

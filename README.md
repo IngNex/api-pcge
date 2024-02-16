@@ -1,4 +1,10 @@
-# SIMPLE CERTIFICATION API WITH TYPEORM
+# API PCGE WITH TYPEORM
+
+Node Version:
+v18.13.0
+
+Npm Version: 
+8.19.3
 
 Steps to run this project:
 
